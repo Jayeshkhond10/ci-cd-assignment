@@ -29,7 +29,7 @@ jobs:
         run: npm install --global vercel@latest
 
       - name: Deploy to Vercel
-        run: vercel deploy --prod --yes --token=${{ secrets.VERSEL_TOKEN}}
+        run: vercel deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN}}
         env:
           VERCEL_ORG_ID: dwMa8OPz8Vn6Kns7clyV7SY2
           VERCEL_PROJECT_ID: prj_v5z4JIIpmZGB7N0qrsmIZb1oQysm
